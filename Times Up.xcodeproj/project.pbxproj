@@ -39,6 +39,7 @@
 		A3923EEA24BB753C0010D360 /* Times_UpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Times_UpTests.swift; sourceTree = "<group>"; };
 		A3923EEC24BB753C0010D360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3923EFA24BB76710010D360 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A3A7D9CC24EC90C800FF311B /* TimesUpBDDSpecs.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TimesUpBDDSpecs.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 			children = (
 				A3923ED224BB753B0010D360 /* Times Up */,
 				A3923EFA24BB76710010D360 /* README.md */,
+				A3A7D9CC24EC90C800FF311B /* TimesUpBDDSpecs.md */,
 				A3923EE924BB753C0010D360 /* Times UpTests */,
 				A3923ED124BB753B0010D360 /* Products */,
 			);
