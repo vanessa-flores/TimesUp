@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		A3923ED424BB753B0010D360 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3923ED324BB753B0010D360 /* AppDelegate.swift */; };
 		A3923ED624BB753B0010D360 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3923ED524BB753B0010D360 /* SceneDelegate.swift */; };
-		A3923ED824BB753B0010D360 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3923ED724BB753B0010D360 /* ViewController.swift */; };
+		A3923ED824BB753B0010D360 /* TimersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3923ED724BB753B0010D360 /* TimersViewController.swift */; };
 		A3923EDB24BB753B0010D360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3923ED924BB753B0010D360 /* Main.storyboard */; };
 		A3923EDD24BB753C0010D360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3923EDC24BB753C0010D360 /* Assets.xcassets */; };
 		A3923EE024BB753C0010D360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3923EDE24BB753C0010D360 /* LaunchScreen.storyboard */; };
 		A3923EEB24BB753C0010D360 /* Times_UpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3923EEA24BB753C0010D360 /* Times_UpTests.swift */; };
+		A3F904E5253DF162004B4CB6 /* CreateTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F904E4253DF162004B4CB6 /* CreateTimerViewController.swift */; };
+		A3F904EB253DFA87004B4CB6 /* ModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F904EA253DFA87004B4CB6 /* ModalPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +32,7 @@
 		A3923ED024BB753B0010D360 /* Times Up.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Times Up.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3923ED324BB753B0010D360 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3923ED524BB753B0010D360 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A3923ED724BB753B0010D360 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3923ED724BB753B0010D360 /* TimersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimersViewController.swift; sourceTree = "<group>"; };
 		A3923EDA24BB753B0010D360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A3923EDC24BB753C0010D360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3923EDF24BB753C0010D360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		A3923EEC24BB753C0010D360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3923EFA24BB76710010D360 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A3A7D9CC24EC90C800FF311B /* TimesUpBDDSpecs.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TimesUpBDDSpecs.md; sourceTree = "<group>"; };
+		A3F904E4253DF162004B4CB6 /* CreateTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTimerViewController.swift; sourceTree = "<group>"; };
+		A3F904EA253DFA87004B4CB6 /* ModalPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				A3923EF724BB75610010D360 /* Storyboards */,
 				A3923EF824BB756A0010D360 /* Assets */,
 				A3923EE124BB753C0010D360 /* Info.plist */,
+				A3F904EA253DFA87004B4CB6 /* ModalPresentationController.swift */,
 			);
 			path = "Times Up";
 			sourceTree = "<group>";
@@ -113,7 +118,8 @@
 		A3923EF624BB75550010D360 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A3923ED724BB753B0010D360 /* ViewController.swift */,
+				A3923ED724BB753B0010D360 /* TimersViewController.swift */,
+				A3F904E4253DF162004B4CB6 /* CreateTimerViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -236,7 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3923ED824BB753B0010D360 /* ViewController.swift in Sources */,
+				A3F904E5253DF162004B4CB6 /* CreateTimerViewController.swift in Sources */,
+				A3F904EB253DFA87004B4CB6 /* ModalPresentationController.swift in Sources */,
+				A3923ED824BB753B0010D360 /* TimersViewController.swift in Sources */,
 				A3923ED424BB753B0010D360 /* AppDelegate.swift in Sources */,
 				A3923ED624BB753B0010D360 /* SceneDelegate.swift in Sources */,
 			);

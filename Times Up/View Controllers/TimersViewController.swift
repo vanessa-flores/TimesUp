@@ -8,11 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TimersViewController: UIViewController {
+    
+    // MARK: - Lifecycle
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        navigationItem.title = "Timers"
+    }
+    
+    // MARK: - Actions
+    
+    @IBAction func addButtonPressed() {
+        
     }
 
 
